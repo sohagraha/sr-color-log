@@ -1,0 +1,31 @@
+{
+  "name": "sr-color-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/lib/index.js",
+  "type": "/lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohagraha/sr-color-log.git"
+  },
+  "keywords": [
+    "console color",
+    "beautify console"
+  ],
+  "author": "Sohag Raha <sohagrahabd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sohagraha/sr-color-log/issues"
+  },
+  "homepage": "https://github.com/sohagraha/sr-color-log#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
